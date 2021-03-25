@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".screens.allahakbar.AllahAkbarFragment"
+    >
+    <data>
+        <variable
+            name="allahViewModel"
+            type="com.hosam.electronicsebha.screens.allahakbar.AllahViewModel" />
+    </data>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/allhakbar"
+        android:background="@drawable/allahakbar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <!-- TODO: Update blank fragment layout -->
+
+
+        <Button
+            android:id="@+id/btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="88dp"
+            android:background="@drawable/btnstyle"
+            android:onClick="@{()->allahViewModel.addCOUNT()}"
+            android:text="@{allahViewModel.count.toString()}"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.532"
+            app:layout_constraintStart_toStartOf="parent"  />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

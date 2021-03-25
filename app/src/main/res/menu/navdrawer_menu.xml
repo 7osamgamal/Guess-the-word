@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/sobhanAllah"
+        android:icon="@drawable/emoticon"
+        android:title="@string/sobhanAlla" />
+    <item
+        android:id="@+id/alhamdllah"
+        android:icon="@drawable/emoticon"
+        android:title="@string/alhamdllah" />
+    <item
+        android:id="@+id/nogodelseallah"
+        android:icon="@drawable/emoticon"
+        android:title="@string/nogodelsealla" />
+    <item
+        android:id="@+id/allahakbar"
+        android:icon="@drawable/emoticon"
+        android:title="@string/allahakbar" />
+    <item
+        android:id="@+id/azkar"
+        android:icon="@drawable/emoticon"
+        android:title="@string/azkar" />
+    <item
+        android:id="@+id/tasbehbenifits"
+        android:icon="@drawable/emoticon"
+        android:title="@string/tasbehBenifit" />
+</menu>

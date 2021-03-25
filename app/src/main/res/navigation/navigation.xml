@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/home2">
+
+    <fragment
+        android:id="@+id/home2"
+        android:name="com.hosam.electronicsebha.startscreen.Home"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_home2_to_aboutFragment"
+            app:destination="@id/about" />
+    </fragment>
+    <fragment
+        android:id="@+id/about"
+        android:name="com.hosam.electronicsebha.menufragments.AboutFragment"
+        android:label="AboutFragment" />
+    <fragment
+        android:id="@+id/sobhanAllah"
+        android:name="com.hosam.electronicsebha.screens.sobhanallah.SobhanallahFragment"
+        android:label="fragment_sobhan_allah_"
+        tools:layout="@layout/fragment_sobhan_allah_" />
+    <fragment
+        android:id="@+id/alhamdllah"
+        android:name="com.hosam.electronicsebha.screens.alhamllah.AlhamdllahFragment"
+        android:label="fragment_alhamdllah"
+        tools:layout="@layout/fragment_alhamdllah" />
+    <fragment
+        android:id="@+id/nogodelseallah"
+        android:name="com.hosam.electronicsebha.screens.nogodelseallah.NoGodElseAllaFragment"
+        android:label="fragment_no_god_else_alla"
+        tools:layout="@layout/fragment_no_god_else_alla" />
+    <fragment
+        android:id="@+id/allahakbar"
+        android:name="com.hosam.electronicsebha.screens.allahakbar.AllahAkbarFragment"
+        android:label="AllahAkbarFragment" />
+    <fragment
+        android:id="@+id/azkar"
+        android:name="com.hosam.electronicsebha.menufragments.AzkarFragment"
+        android:label="fragment_azkar"
+        tools:layout="@layout/fragment_azkar" />
+    <fragment
+        android:id="@+id/tasbehbenifits"
+        android:name="com.hosam.electronicsebha.menufragments.TasbehBenefitFragment"
+        android:label="fragment_tasbeh_benefit"
+        tools:layout="@layout/fragment_tasbeh_benefit" />
+</navigation>
